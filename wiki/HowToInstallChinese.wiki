@@ -1,0 +1,11 @@
+#summary One-sentence summary of this page.
+#labels chinese,howto,install
+
+= Introduction =
+
+如何安装Adobe Flash Builder™ 4 beta 2 For Linux Alpha 1
+
+
+= Details =
+
+http://218.65.19.25/2009/11/17/686/
