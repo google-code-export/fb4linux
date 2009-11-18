@@ -17,3 +17,7 @@ how to install the Adobe Flash Builder™ 4 beta 2 For Linux.
   * in eclipse,select Help->Software Updates->Manage Configuration select the path :/home/feiy/FlexBuilder4Linux 
   * submit,reboot eclipse.
   * amd64,to view http://labs.adobe.com/technologies/flex/flexbuilder_linux/releasenotes.html#install : Installing Flex Builder Linux on 64-bit Operating Systems
+
+== other ==
+
+mkdir -p "~/.macromedia/Flash_Player/#Security/FlashPlayerTrust"
