@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary 中文安装说明
 #labels chinese,howto,install
 
 = Introduction =
