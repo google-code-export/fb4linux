@@ -1,13 +1,16 @@
-#summary One-sentence summary of this page.
+#summary how to install the flashbuilder for linux
 #labels install,howto
 
 = Introduction =
 
 how to install the Adobe Flash Builder™ 4 beta 2 For Linux.
 
+= System Requirements =
+
+ * eclipse 3.4.2+
+ * java 1.5+
 
 = Details =
-
 
 
   * Download the file from here[http://218.65.19.27/wp-content/uploads/Adobe_Flash_Builder_Beta_2_For_Linux_Alpha1.tar.gz],extract it.for example,extract to:/home/feiy/FlexBuilder4Linux 
