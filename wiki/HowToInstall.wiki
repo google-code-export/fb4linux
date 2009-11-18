@@ -20,6 +20,7 @@ how to install the Adobe Flash Builder™ 4 beta 2 For Linux.
 
 == other ==
 
+if can't run/debug app,do:
 {{{
 mkdir -p ~/.macromedia/Flash_Player/#Security/FlashPlayerTrust
 }}}
