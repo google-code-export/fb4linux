@@ -39,4 +39,4 @@ at mx.managers::SystemManager/http://www.adobe.com/2006/flex/mx/internal::initia
 at mx.managers::SystemManager/initHandler()[E:\dev\trunk\frameworks\projects\framework\src\mx\managers\SystemManager.as:2421]
 }}}
 
-try to add the eclipse workspace path to .macromedia/Flash_Player/#Security/FlashPlayerTrust/flexbuilder_plugin.cfg
+try to add the eclipse workspace path to ~/.macromedia/Flash_Player/#Security/FlashPlayerTrust/flexbuilder_plugin.cfg
