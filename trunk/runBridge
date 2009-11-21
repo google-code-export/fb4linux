@@ -1,0 +1,6 @@
+cd bin
+#java_cmd="wine /home/feiy/.wine/drive_c/Program Files/Java/jre6/bin/java.exe"
+java_cmd="wine java"
+project_root="/home/feiy/.wine/drive_c/FB4linux"
+cd $project_root
+$java_cmd -cp -cp ./bin\;./libs/com.adobe.flexbuilder.utils.osnative_4.0.0.253292/osnative.jar\;./lib.com.adobe.flexbuilder.utils.osnative.win_4.0.0.253292\;./libs/com.adobe.flexbuilder.utils.osnative_4.0.0.253292/os/win32/x86 fb4linux.wine.WineBridge

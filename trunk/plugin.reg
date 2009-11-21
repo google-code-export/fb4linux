@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\MozillaPlugins]
+
+[HKEY_CURRENT_USER\Software\MozillaPlugins\@adobe.com/FlashPlayer]
+"Description"="Adobe?Flash?Player 10"
+"Path"="C:\\windows\\system32\\Macromed\\Flash\\NPSWF32.dll"
+"ProductName"="Adobe?Flash?Player Plugin"
+"Vendor"="Adobe Systems Incorporated"
+"Version"="10.0.32.18"
+"XPTPath"="C:\\windows\\system32\\Macromed\\Flash\\flashplayer.xpt"
+
+[HKEY_CURRENT_USER\Software\MozillaPlugins\@xunlei.com/DapCtrlPlugin]
+"Description"="2.0.5901.12"
+"Path"="C:\\Program Files\\Common Files\\Thunder Network\\KanKan\\npDapCtrlFirefox.2.0.5901.12.(209).dll"
+"ProductName"="Thunder DapCtrl Plugin"
+"Vendor"="Thunder"
+"Version"="2.0.5901.12"
+
+[HKEY_CURRENT_USER\Software\MozillaPlugins\@xunlei.com/DapCtrlPlugin\MimeTypes]
+
+[HKEY_CURRENT_USER\Software\MozillaPlugins\@xunlei.com/DapCtrlPlugin\MimeTypes\application/x-dapctrl]
+"Description"="Thunder DapCtrl Plugin"
+"Suffixes"="*"
+
+[HKEY_CURRENT_USER\Software\MozillaPlugins\@xunlei.com/DapCtrlPlugin\Suffixes]
+@="*"
