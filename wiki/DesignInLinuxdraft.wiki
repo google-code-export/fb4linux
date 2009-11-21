@@ -12,7 +12,11 @@ Flash Builder's Desing view base the windows/mac's flash player,and depend on th
 
 so can we call the flash player dll by wine?this is the draft:
 
+{{{
 fb4linux<->socket<->fb4linux wine bridge<->flash player dll
+}}}
+
+or remote call by jini.
 
 the way can make the profile work fine too!
 
