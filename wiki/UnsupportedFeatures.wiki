@@ -1,0 +1,13 @@
+#summary Unsupported Flex Builder Features In FB4Linux Alpha2
+#labels unsupported,alpha2
+
+= Introduction =
+
+This section lists unsupported Flash Builder features in Flash Builder Linux Alpha2.
+
+
+= Details =
+
+    * Design view
+    * States view
+    * Profiler
