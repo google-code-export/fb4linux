@@ -1,0 +1,12 @@
+#summary What is new in FB4Linux alpha2
+#labels Alpha2,FB4Linux,whatisnew
+= Introduction =
+
+the new feature in FB4Linux alpha2
+
+
+= Details =
+
+  * Remove mxml desgin view(_the view only work with windows/Mac),fixed Issue3
+  * fixed the bug of Dialog popups when  trying to debug/run app(Issue 2)
+  * fixed the Opening CSS file's error(Issue4)
