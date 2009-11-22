@@ -1,0 +1,23 @@
+#summary How to change the Flash Builder Default Language
+#labels howto,language
+
+= Introduction =
+
+The Flash Builder use the system language default.u can modify the eclipse.ini add -n language code to modify the language.
+
+for example:
+{{{
+-nl
+en_US
+-startup
+plugins/org.eclipse.equinox.launcher_1.1.0.v20091023.jar
+--launcher.library
+plugins/org.eclipse.equinox.launcher.gtk.linux.x86_1.1.0.v20091012
+--launcher.XXMaxPermSize
+256m
+-vmargs
+-Xms512m
+-Xmx1024m
+-XX:MaxPermSize=256m
+-XX:PermSize=64m
+}}}
