@@ -3,9 +3,9 @@
 
 = Introduction =
 
-The Flash Builder use the system language default.u can modify the eclipse.ini add -n language code to modify the language.
+The Flash Builder use the system language default.u can modify the eclipse.ini add -nl language code(english:en_US  or chinese:zh_CN) to modify the language.
 
-for example:
+for example,my eclipse.ini content:
 {{{
 -nl
 en_US
