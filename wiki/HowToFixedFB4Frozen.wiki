@@ -31,7 +31,7 @@ this is not the FB4Linux bug,it's the bug of run win32 eclipse in x64 system,ecl
 just install a i386 version xulrunner can fixed this:
   * sudo getlibs -p xulrunner (ubuntu user:sudo apt-get install getlibs before.)
   * sudo apt-get install libswt-mozilla-gtk-3.4-jni
-  * cd /usr/lib/jvm/ia32-java-6-sun/jre/lib/i386 && sudo ln -s /usr/share/doc/libswt-mozilla-gtk-3.4-jni
+  * cd /usr/lib/jvm/ia32-java-6-sun/jre/lib/i386 && sudo ln -s /usr/lib/jni/libswt-mozilla-gtk-3452.so
   * add follow to eclipse run command:
 {{{
 export MOZILLA_FIVE_HOME=/usr/lib32/xulrunner
