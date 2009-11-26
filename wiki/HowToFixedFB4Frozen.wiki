@@ -1,0 +1,34 @@
+#summary How to fixed the FB4Linux Frozen and eclipse dead.
+#labels howto,eclipse,x64
+
+= Introduction =
+
+since yesterday,my FB4Linux often be Frozen ,and eclipse to dead.
+the eclipse log show this:
+
+{{{
+!ENTRY org.eclipse.ui 4 0 2009-11-26 16:28:13.702
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTError: No more handles [MOZILLA_FIVE_HOME='/usr/lib32/xulrunner'] (java.lang.UnsatisfiedLinkError: no swt-mozilla-gtk-3550 or swt-mozilla-gtk in swt.library.path, java.library.path or the jar file))
+        at org.eclipse.swt.SWT.error(SWT.java:3884)
+        at org.eclipse.swt.SWT.error(SWT.java:3799)
+        at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+        at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+        at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+        at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+        at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+        at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+        at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+        at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+}}}
+
+
+= Details =
+
+this is not the FB4Linux bug,it's the bug of run win32 eclipse in x64 system,eclipse can't load xulrunner lib.
+
+just install a i386 version xulrunner can fixed this:
+  * sudo getlibs -p xulrunner (ubuntu user:sudo apt-get install getlibs before.)
+  * and 
+{{{export MOZILLA_FIVE_HOME=/usr/lib32/xulrunner}}} to eclipse run command.
