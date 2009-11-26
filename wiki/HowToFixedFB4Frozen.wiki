@@ -35,7 +35,7 @@ just install a i386 version xulrunner can fixed this:
 export MOZILLA_FIVE_HOME=/usr/lib32/xulrunner
 }}}
 
-by the way.if eclipse do not reply the mouse click,add follow to eclips run eclipse:
+by the way.if eclipse do not reply the mouse click,add follow to eclipse run eclipse:
 {{{
 export GDK_NATIVE_WINDOWS=1
 }}}
