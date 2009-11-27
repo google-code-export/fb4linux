@@ -29,12 +29,13 @@ org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTErr
 this is not the FB4Linux bug,it's the bug of run win32 eclipse in x64 system,eclipse can't load xulrunner lib.
 
 just install a i386 version xulrunner can fixed this:
-  * sudo getlibs -p xulrunner (ubuntu user:sudo apt-get install getlibs before.)
-  * sudo apt-get install libswt-mozilla-gtk-3.4-jni
+  * sudo getlibs -p xulrunner-1.9.1 (ubuntu user:sudo apt-get install getlibs before.)
+  * download libswt-mozilla-gtk-3555.so to /usr/lib32
   * cd /usr/lib/jvm/ia32-java-6-sun/jre/lib/i386 && sudo ln -s /usr/lib/jni/libswt-mozilla-gtk-3452.so
   * add follow to eclipse run command:
 {{{
-export MOZILLA_FIVE_HOME=/usr/lib32/xulrunner
+export MOZILLA_FIVE_HOME=/usr/lib32/xulrunner-1.9.1.5
+export LD_LIBRARY_PATH=/usr/lib32
 }}}
 
 by the way.if eclipse do not reply the mouse click,add follow to eclipse run eclipse:
