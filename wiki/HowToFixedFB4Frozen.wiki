@@ -32,11 +32,11 @@ just install a i386 version xulrunner can fixed this:
   * sudo getlibs -p xulrunner-1.9.1 (ubuntu user:sudo apt-get install getlibs before.)
   * download libswt-mozilla-gtk-3555.so to /usr/lib32
   * cd /usr/lib/jvm/ia32-java-6-sun/jre/lib/i386 && sudo ln -s /usr/lib32/libswt-mozilla-gtk-3555.so
-  *getlibs -l libxcb-atom.so.1
-  *getlibs -l libxcb-event.so.1
-  *getlibs -l libxcb-aux.so.0
-  *getlibs -l libstartup-notification-1.so.0
-  *getlibs -l libhunspell-1.2.so.0
+  * getlibs -l libxcb-atom.so.1
+  * getlibs -l libxcb-event.so.1
+  * getlibs -l libxcb-aux.so.0
+  * getlibs -l libstartup-notification-1.so.0
+  * getlibs -l libhunspell-1.2.so.0
 
   * add follow to eclipse run command:
 {{{
