@@ -11,3 +11,5 @@ FB4Linux Update Info
 2010-03-26,update
   * fixed the issues13 [issues13 http://code.google.com/p/fb4linux/issues/detail?id=13]
   * default set the flashbuilder 4 linux to dev version
+2010-03-25,update
+  * port from the adobe released adobe FlashBuilder 4 
