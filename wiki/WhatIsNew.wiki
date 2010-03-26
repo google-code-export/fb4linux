@@ -9,5 +9,5 @@ FB4Linux Update Info
 = Details =
 
 2010-03-26,update
-  * fixed the isses13
+  * fixed the issues13
   * default set the flashbuilder 4 linux to dev version
