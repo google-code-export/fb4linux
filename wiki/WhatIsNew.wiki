@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Featured,whatIsNew,Update
+#the update info about fb4linux
 
 = Introduction =
 
