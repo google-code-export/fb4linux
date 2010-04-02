@@ -8,6 +8,8 @@ FB4Linux Update Info
 
 = Details =
 
+2010-04-02,update
+  * fixed a NullPointerException in new mxml app!
 2010-04-01,update
   * fixed a dead lock with FB4Linux often be Frozen!
 2010-03-29,update
