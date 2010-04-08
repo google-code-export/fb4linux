@@ -26,7 +26,9 @@ org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTErr
 
 = Details =
 
-this is not the FB4Linux bug,it's the bug of run win32 eclipse in x64 system,eclipse can't load xulrunner lib.
+this page has  deprecated,current FB4Linux have work in x64 without the ia32lib,it is Platform independent ,can work with x86 and x64.
+
+~~this is not the FB4Linux bug,it's the bug of run win32 eclipse in x64 system,eclipse can't load xulrunner lib.~~
 
 just install a i386 version xulrunner can fixed this:
   * sudo getlibs -p xulrunner-1.9.1 (ubuntu user:sudo apt-get install getlibs before.)
