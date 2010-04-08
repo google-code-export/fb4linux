@@ -1,5 +1,5 @@
 #summary How to fixed the FB4Linux Frozen and eclipse dead.
-#labels howto,eclipse,x64
+#labels howto,eclipse,x64,Deprecated
 
 = Introduction =
 
