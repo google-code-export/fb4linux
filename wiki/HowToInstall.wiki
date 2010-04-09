@@ -3,7 +3,7 @@
 
 = Introduction =
 
-how to install the Adobe Flash Builder™ 4 beta 2 For Linux.
+how to install the Adobe Flash Builder™ 4 For Linux.
 
 = System Requirements =
 
