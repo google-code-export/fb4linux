@@ -9,7 +9,7 @@ FB4Linux Update Info
 = Details =
 
 2010-05-13,update
-  * store fb4linux install file to fb4linux project site's downloads page,and  Thanks haiseezhou for downloading mirror services again!
+  * move fb4linux install file to fb4linux project site's downloads page,and  Thanks haiseezhou for downloading mirror services again!
 2010-04-02,update
   * fixed a NullPointerException in new mxml app!
 2010-04-01,update
