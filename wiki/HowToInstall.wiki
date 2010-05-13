@@ -13,7 +13,9 @@ how to install the Adobe Flash Builder™ 4 For Linux.
 = Details =
 
 
-  * Download the file from downloads,extract it.for example,extract to:/home/feiy/FlexBuilder4Linux 
+  * Download the two fb4 install file from downloads page
+  * use cat command the merge two file to one install file:<code>cat FB4Linux* >FB4Linux.tar.bz2</code>
+  * extract it.for example,extract to:/home/feiy/FlexBuilder4Linux 
   * in eclipse,select Help->Software Updates->Manage Configuration(if u no this menu,todo:select Window->Preferences->General->Capabilities-> checked Classis Update) ->right click->add->extension location->select the path :/home/feiy/FlexBuilder4Linux 
   * submit,reboot eclipse.
   * ~~amd64,to view http://labs.adobe.com/technologies/flex/flexbuilder_linux/releasenotes.html#install : Installing Flex Builder Linux on 64-bit Operating Systems,after do follow it ,to view [HowToFixedFB4Frozen]~~
