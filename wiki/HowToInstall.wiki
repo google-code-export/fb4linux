@@ -14,7 +14,7 @@ how to install the Adobe Flash Builder™ 4 For Linux.
 
 
   * Download the six fb4 install file from downloads page
-  * use cat command the merge two file to one install file:
+  * use cat command the merge six file to one install file:
 {{{
 cat FB4Linux* >FB4Linux.tar.bz2
 }}}
