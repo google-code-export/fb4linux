@@ -25,6 +25,7 @@ cat FB4Linux* >FB4Linux.tar.bz2
   * ~~amd64,to view http://labs.adobe.com/technologies/flex/flexbuilder_linux/releasenotes.html#install : Installing Flex Builder Linux on 64-bit Operating Systems,after do follow it ,to view [HowToFixedFB4Frozen]~~
   * current released,fb4linux work in amd64 & i386,don't need the ia32 jre in amd64 system.
 
+BTW:here has a howto install detail:http://www.brighthub.com/hubfolio/matthew-casperson/articles/78818.aspx
 == other ==
 
 if can't run/debug app,do:
