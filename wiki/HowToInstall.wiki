@@ -18,7 +18,7 @@ how to install the Adobe Flash Builder™ 4 For Linux.
 {{{
 cat FB4Linux* >FB4Linux.tar.bz2
 }}}
-
+  * if u want use Flash Builder Burrito 4.5 ,just to download the Burrito4Linux.tar.bz2 file and extract it.
   * extract it.for example,extract to:/home/feiy/FlexBuilder4Linux 
   * in eclipse,select Help->Software Updates->Manage Configuration(if u no this menu,todo:select Window->Preferences->General->Capabilities-> checked Classis Update) ->right click->add->extension location->select the path :/home/feiy/FlexBuilder4Linux 
   * submit,reboot eclipse.
