@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Burrito4Linux howto
+this version base to the Adobe labs site's [http://labs.adobe.com/technologies/flashbuilder_burrito/ Flash Builder Burrito 4.5]
 
 
 = Details =
