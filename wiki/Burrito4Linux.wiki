@@ -1,0 +1,13 @@
+#labels Burrito4Linux,Howto
+#Flash Builder Burrito 4.5 for linux descript
+
+= Introduction =
+
+Burrito4Linux howto
+
+
+= Details =
+
+
+  * download the Burrito4Linux.tar.bz2 file from downloads page.
+  * extract it and do fllow with howto page
