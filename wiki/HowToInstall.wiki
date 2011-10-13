@@ -1,51 +1,33 @@
 #summary how to install the flashbuilder for linux
-#labels install,howto,amd64,i386
+#labels install,howto,amd64,i386,FlashBuilder4.5
 
 = Introduction =
 
-how to install the Adobe Flash Builder™ 4 For Linux.
+how to install the Adobe Flash Builder™ 4.5 For Linux.
 
 = System Requirements =
 
- * eclipse 3.4.2+
- * java 1.5+
+ * eclipse 3.6+
+ * java 1.6+
 
 = Details =
 
 
-  * Download the four fb4 install file from downloads page
-  * use cat command the merge six file to one install file:
+  * Download the two FB45ForLinux install file from downloads page
+  * use cat command the merge the two file to one install file:
 {{{
-cat FB4Linux* >FB4Linux.tar.bz2
+cat FB45ForLinux* >FB45ForLinux.tar.bz2
 }}}
-  * if u want use Flash Builder Burrito 4.5 ,just to download the Burrito4Linux.tar.bz2 file and extract it.
-  * extract it.for example,extract to:/home/feiy/FlexBuilder4Linux 
-  * in eclipse,select Help->Software Updates->Manage Configuration(if u no this menu,todo:select Window->Preferences->General->Capabilities-> checked Classis Update) ->right click->add->extension location->select the path :/home/feiy/FlexBuilder4Linux 
+  * extract it.for example,extract to:/home/feiy/FlexBuilder45Linux 
+  * in eclipse,select Help->Software Updates->Manage Configuration(if u no this menu,todo:select Window->Preferences->General->Capabilities-> checked Classis Update) ->right click->add->extension location->select the path :/home/feiy/FlexBuilder45Linux 
   * submit,reboot eclipse.
-  * ~~amd64,to view http://labs.adobe.com/technologies/flex/flexbuilder_linux/releasenotes.html#install : Installing Flex Builder Linux on 64-bit Operating Systems,after do follow it ,to view [HowToFixedFB4Frozen]~~
-  * current released,fb4linux work in amd64 & i386,don't need the ia32 jre in amd64 system.
 
-BTW:here has a howto install detail:http://www.brighthub.com/hubfolio/matthew-casperson/articles/78818.aspx
 == other ==
 
 if can't run/debug app,do:
-{{{
-mkdir -p ~/.macromedia/Flash_Player/#Security/FlashPlayerTrust
-}}}
 
-if got:
-{{{
-An ActionScript error has occurred:
-SecurityError: Error #2148: SWF file file:///home/jupiter/projects/temp/TestProject/bin-debug/TestProject.swf cannot access local resource file:///home/jupiter/projects/temp/TestProject/bin-debug/textLayout_1.0.0.549.swf. Only local-with-filesystem and trusted local SWF files may access local resources.
-at flash.net::URLStream/load()
-at flash.net::URLLoader/load()
-at mx.core::CrossDomainRSLItem/load()[E:\dev\trunk\frameworks\projects\framework\src\mx\core\CrossDomainRSLItem.as:235]
-at mx.core::RSLListLoader/loadNext()[E:\dev\trunk\frameworks\projects\framework\src\mx\core\RSLListLoader.as:184]
-at mx.core::RSLListLoader/load()[E:\dev\trunk\frameworks\projects\framework\src\mx\core\RSLListLoader.as:156]
-at mx.preloaders::Preloader/initialize()[E:\dev\trunk\frameworks\projects\framework\src\mx\preloaders\Preloader.as:279]
-at mx.managers::SystemManager/http://www.adobe.com/2006/flex/mx/internal::initialize()[E:\dev\trunk\frameworks\projects\framework\src\mx\managers\SystemManager.as:1927]
-at mx.managers::SystemManager/initHandler()[E:\dev\trunk\frameworks\projects\framework\src\mx\managers\SystemManager.as:2421]
-}}}
+install the debug version flashplayer plugin .the fb45linux don't check the debug plugin.
 
-try to add the eclipse workspace path to 
-{{{~/.macromedia/Flash_Player/#Security/FlashPlayerTrust/flexbuilder_plugin.cfg}}}
+if u want run/debug air app,do:
+
+download the air sdk for linux,and extract the the flex sdk dir.
