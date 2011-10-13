@@ -1,7 +1,13 @@
-#labels Burrito4Linux,Howto
+#labels Burrito4Linux,Howto,Deprecated
 #Flash Builder Burrito 4.5 for linux descript
 
+this page have Deprecated.
+
+the last howto: HowToInstall 
+
 = Introduction =
+
+
 
 this version base to the Adobe labs site's [http://labs.adobe.com/technologies/flashbuilder_burrito/ Flash Builder Burrito 4.5]
 
