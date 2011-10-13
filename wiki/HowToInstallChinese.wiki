@@ -1,11 +1,19 @@
 #summary 中文安装说明
-#labels chinese,howto,install
+#labels chinese,howto,install,FB4.5
 
 = Introduction =
 
-如何安装Adobe Flash Builder™ 4 beta 2 For Linux Alpha 1
+如何安装Adobe Flash Builder™ 4.5 For Linux
 
 
 = Details =
 
-http://blog.aixigua.com/2009/11/17/686/
+从下载中下载两个FB45ForLinux开头的文件，存在同一目录中，然后执行如下命令：
+
+cat FB45ForLinux* FB45ForLinux.tar.bz2
+
+然后将合并后的文件FB45ForLInux.tar.bz2解压到某一文件夹中。
+
+然后在eclipse中help->software update->manage configure->右键->add extension->选择前面解压的目录。
+
+重启即可
