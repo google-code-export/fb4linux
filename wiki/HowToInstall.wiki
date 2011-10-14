@@ -14,6 +14,7 @@ how to install the Adobe Flash Builder™ 4.5 For Linux.
 
 
   * Download the two FB45ForLinux install file from downloads page((u can use the md5sum to check the download file)
+  * if u download before 2011-10-14,please download the file again!the last version is support i386&amd64!
   * use cat command the merge the two file to one install file:
 {{{
 cat FB45ForLinux* >FB45ForLinux.tar.bz2
