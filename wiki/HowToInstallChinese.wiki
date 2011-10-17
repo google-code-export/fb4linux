@@ -17,3 +17,7 @@ cat FB45ForLinux* FB45ForLinux.tar.bz2
 然后在eclipse中help->software update->manage configure->右键->add extension->选择前面解压的目录。
 
 重启即可
+
+注意：
+ * 安装文件中没包含SDK
+ * 如果需要提示AIR，请到Adobe网站下载air sdk（3.0不支持linux了，2.X的有linux sdk）
