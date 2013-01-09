@@ -8,6 +8,8 @@ FB4Linux Update Info
 
 = Details =
 
+2013-1-9,update
+  * fixed some bug.
 2011-02-12,update
   * port Flash Builder Burrito 4.5 to linux
 2010-06-09.1,update
